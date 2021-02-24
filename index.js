@@ -11,8 +11,8 @@ var  i=Math.random();
 }
 randomnumber1=random();
 randomnumber2=random();
-document.querySelector(".dice1").setAttribute("src","images/dice"+randomnumber1+".png");
-document.querySelector(".dice2").setAttribute("src","images/dice"+randomnumber2+".png");
+document.querySelector(".dice1").setAttribute("src","dice"+randomnumber1+".png");
+document.querySelector(".dice2").setAttribute("src","dice"+randomnumber2+".png");
 if(randomnumber1>randomnumber2) {
   document.querySelector("h1").innerText=str1;
 }
